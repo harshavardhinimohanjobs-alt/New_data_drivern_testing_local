@@ -2,7 +2,6 @@ package Hooks;
 
 import Utilities.Configreader;
 import Utilities.Driverfactory;
-import Utilities.Log;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
@@ -16,15 +15,11 @@ import java.util.Properties;
 
 public class Hooks {
     @Before
-    public void setup(Scenario scenario)
+    public void setup()
     {
-        Log.logger.info("=========================================");
-        Log.logger.info("Starting Scenario: " + scenario.getName());
         Properties prop= Configreader.initializeproperties();
-        Log.logger.info("initializing browser"+prop.getProperty("browser"));
         Driverfactory.Initializebrowser(prop.getProperty("browser"));
         Driverfactory.getDriver().get(prop.getProperty("url"));
-        Log.logger.info("navigate to url"+prop.getProperty("url"));
     }
     @After
     public void teardown(Scenario scenario) {
