@@ -1,0 +1,16 @@
+2026-01-08 13:17:00 INFO  Utilities.Log - =========================================
+2026-01-08 13:17:00 INFO  Utilities.Log - =========================================
+2026-01-08 13:17:00 INFO  Utilities.Log - Starting Scenario: Login with valid and invalid credentials from excel
+2026-01-08 13:17:00 INFO  Utilities.Log - Starting Scenario: Login with valid and invalid credentials from excel
+2026-01-08 13:17:00 INFO  Utilities.Log - initializing browserchrome
+2026-01-08 13:17:00 INFO  Utilities.Log - initializing browserchrome
+2026-01-08 13:17:05 INFO  Utilities.Log - navigate to urlhttps://tutorialsninja.com/demo/index.php?route=account/login
+2026-01-08 13:17:05 INFO  Utilities.Log - browser launched
+2026-01-08 13:17:05 INFO  Utilities.Log - navigate to urlhttps://tutorialsninja.com/demo/index.php?route=account/login
+2026-01-08 13:17:05 INFO  Utilities.Log - browser launched
+2026-01-08 13:17:05 INFO  Utilities.Log - user entering the user name and password
+2026-01-08 13:17:05 INFO  Utilities.Log - user entering the user name and password
+2026-01-08 13:17:08 INFO  Utilities.Log - user click on the loggin button
+2026-01-08 13:17:08 INFO  Utilities.Log - user click on the loggin button
+2026-01-08 13:17:09 INFO  Utilities.Log - login not successfull
+2026-01-08 13:17:09 INFO  Utilities.Log - login successfull
