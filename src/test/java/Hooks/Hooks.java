@@ -31,6 +31,7 @@ public class Hooks {
             // Attach screenshot to report (preferred way)
             byte[] screenshotBytes = ts.getScreenshotAs(OutputType.BYTES);
             scenario.attach(screenshotBytes, "image/png", scenario_name);
+            //this is for merge conflict demo
 
             // Save screenshot as file
             File src = ts.getScreenshotAs(OutputType.FILE);
