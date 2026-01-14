@@ -32,6 +32,7 @@ public class Hooks {
 
         if (scenario.isFailed()) {
             TakesScreenshot ts = (TakesScreenshot) Driverfactory.getDriver();
+            //This is for merge conflict demo
 
             // Attach screenshot to report (preferred way)
             byte[] screenshotBytes = ts.getScreenshotAs(OutputType.BYTES);
