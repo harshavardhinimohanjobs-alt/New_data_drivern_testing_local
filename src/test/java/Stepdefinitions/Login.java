@@ -54,9 +54,10 @@ public class Login {
     }
     public void main()
     {
-        System.out.println("This is for learing purpose");
-
-        
+        System.out.println("This is for learning purpose from my machine");
     }
-
+    public void sample()
+    {
+        System.out.println("this is for another sample method");
+    }
 }
