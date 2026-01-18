@@ -52,5 +52,11 @@ public class Login {
             Assert.fail("Invalid ExpectedResult value in Excel");
         }
     }
+    public void main()
+    {
+        System.out.println("This is for learing purpose");
+
+        
+    }
 
 }
